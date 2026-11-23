@@ -1,0 +1,76 @@
+{
+  "seed": 43,
+  "type": "TypeE",
+  "cluster": 0,
+  "matched_to": "/home/liucheng/EACL/data/dapo_instruct_reverseNormK2_matched_meanKL_len/train_reverseNormK2_C0_matchedKLlen_1000_seed42.json",
+  "output_path": "/home/liucheng/EACL/data/dapo_instruct_reverseNormK2_matched_meanKL_len/train_reverseNormK2_C0_matchedKLlen_1000_seed43.json",
+  "seed42_stats": {
+    "n": 1000,
+    "mean_kl_mean": 0.11707270397092952,
+    "mean_kl_median": 0.1051036324453998,
+    "length_mean": 1637.037,
+    "length_median": 1278.5
+  },
+  "seed43_stats": {
+    "n": 1000,
+    "mean_kl_mean": 0.11351040272832734,
+    "mean_kl_median": 0.10487020329816926,
+    "length_mean": 1654.791,
+    "length_median": 1285.5
+  },
+  "target_bins": 266,
+  "missing_cells": {
+    "(29, 3)": {
+      "need": 2,
+      "got": 1
+    },
+    "(27, 4)": {
+      "need": 1,
+      "got": 0
+    },
+    "(18, 5)": {
+      "need": 7,
+      "got": 5
+    },
+    "(27, 5)": {
+      "need": 1,
+      "got": 0
+    },
+    "(26, 3)": {
+      "need": 4,
+      "got": 1
+    },
+    "(36, 2)": {
+      "need": 1,
+      "got": 0
+    },
+    "(35, 2)": {
+      "need": 2,
+      "got": 0
+    },
+    "(38, 1)": {
+      "need": 2,
+      "got": 0
+    },
+    "(29, 2)": {
+      "need": 2,
+      "got": 1
+    },
+    "(37, 2)": {
+      "need": 1,
+      "got": 0
+    },
+    "(25, 4)": {
+      "need": 1,
+      "got": 0
+    },
+    "(24, 6)": {
+      "need": 1,
+      "got": 0
+    },
+    "(21, 8)": {
+      "need": 1,
+      "got": 0
+    }
+  }
+}

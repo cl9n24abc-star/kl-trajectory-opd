@@ -1,0 +1,30 @@
+{
+  "pool_json": "/data1/liucheng/data/DAPO-Math-17k_qwen3_1p7b_clean.json",
+  "shape_npz": "/data1/liucheng/data/DAPO-Math-17k_qwen3_1p7b_vs_qwen3_8b_reverseTokenKL_pos_shape_interp256.npz",
+  "cluster_npz": "/data1/liucheng/data/DAPO-Math-17k_qwen3_1p7b_vs_qwen3_8b_reverseTokenKL_pos_shape_interp256_clusters_k2to6.npz",
+  "label_key": "normalized_k2_labels",
+  "seed": 42,
+  "kl_bin_width": 0.01,
+  "len_bin_width": 256,
+  "matched_sizes": {
+    "0": 5060,
+    "1": 5060
+  },
+  "num_cells": 348,
+  "C0": {
+    "num_samples": 5060,
+    "mean_reverse_token_kl_mean": 0.10397375513092715,
+    "mean_reverse_token_kl_median": 0.09376202523708344,
+    "response_tokens_mean": 1732.1312252964426,
+    "response_tokens_median": 1441.0,
+    "output_path": "/home/liucheng/EACL/data/dapo_instruct_reverseNormK2_matched_meanKL_len/train_reverseNormK2_C0_matchedKLlen_5060_seed42.json"
+  },
+  "C1": {
+    "num_samples": 5060,
+    "mean_reverse_token_kl_mean": 0.10404996573814584,
+    "mean_reverse_token_kl_median": 0.09367670863866806,
+    "response_tokens_mean": 1730.0802371541502,
+    "response_tokens_median": 1449.0,
+    "output_path": "/home/liucheng/EACL/data/dapo_instruct_reverseNormK2_matched_meanKL_len/train_reverseNormK2_C1_matchedKLlen_5060_seed42.json"
+  }
+}
